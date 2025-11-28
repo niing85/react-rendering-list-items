@@ -1,0 +1,57 @@
+*{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.movie-list-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movieBox{
+    width: 500px;
+    display: flex;
+    background-color: whitesmoke;
+    border: solid black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.detailBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.genreStyle{
+    background-color: salmon;
+    border: none;
+    border-radius: 20px;
+    padding: 16px 8px 16px 8px;
+    margin-left: 2px;
+    text-align: center;
+}
+
+p{
+    margin: 10px;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 100px;
+    text-align: center;
+}
